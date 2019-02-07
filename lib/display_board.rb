@@ -8,32 +8,32 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-board = [" "," "," "," "," "," "," "," "," ",]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board = [" "," "," "," ","X"," "," "," "," ",]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
-board = ["O"," "," "," "," "," "," "," "," ",]
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board = ["O"," "," "," ","X"," "," "," "," ",]
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
-board = ["X","X","X"," "," "," "," "," "," ",]
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board = [" "," "," "," "," "," ","O","O","O",]
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 display_board(board)
 
-board = ["X"," "," "," ","X"," "," "," ","X",]
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 display_board(board)
 
-board = [" "," ","O"," ","O"," ","O"," "," ",]
+board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
 
-board = [" "," "," "," "," "," "," "," "," ",]
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 display_board(board)
 
-board = ["X","X","X","X","X","X","X","X","X"]
+board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 display_board(board)
